@@ -1,7 +1,8 @@
 /* ************************************************* General Styling ****************************************************** */
 
 body { 
-    background-color:#000000;
+    /* background-color:#000000; */
+    background-color:#61677A;
     margin: 0 7% 0 7%;
     text-align: center;
     font-family: sans-serif;
@@ -9,3 +10,46 @@ body {
     margin-right: 0;
 }
 
+/* ************************************************* Class Styling ****************************************************** */
+
+.nav-right {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: right;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.S1 {
+    margin-top: 100px;
+}
+
+.home_intro{
+    
+    font-family:Sacramento;
+    font-size:60px;
+    align:center;
+    color: white;
+}
+
+.basil_img{
+
+    border-radius: 85%;
+}
+
+.row_s1 {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_s1 {
+    margin-left: 10%;
+    float: center;
+    text-align: center;
+    width: 50%;
+}
+
+.S2 {
+background-color:#1450A3;
+}

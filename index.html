@@ -4,33 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel = "stylesheet" href = "CSS/styles.css">
+   <!-- Add Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+<!-- Add jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Add Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel = "stylesheet" href = "CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <title>Basil Reji</title>
 
 </head>
 
 <body>
       <!-- Navigation bar  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-        
-        <!-- Navbar content -->
-        <a class="navbar-brand" href="#">
-            <img src="images/Basil.png" width="120" height="85" alt="Basil Reji Logo">
-          </a>
-    <ul class="navbar-nav ms-auto">
-        <li class=" navbar-items">
-            <a class="nav-link" href="index.html"> Home</a>
-            <a class="nav-link" href="about.html"> About</a>
-            <a class="nav-link" href="Photography.html"> Photography</a>
-            <a class="nav-link" href="Contact.html"> Contact</a>
-        </li>
-    </ul> 
-        
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #1450A3;">
+
+        <a class="navbar-brand" href="/images/Basil.png"><img src="images/Basil.png" width="150" height="40" alt="Basil Reji Logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home </a>
+            <a class="nav-item nav-link" href="about.html">About</a>
+            <a class="nav-item nav-link" href="photography.html">Photography</a>
+            <a class="nav-item nav-link disabled" href="#">Blog</a>
+            <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+          </div>
+        </div>
       </nav>
+       
+        <div class="container S1"><!-- S1 = Section 1  -->
+          <div class="row">
+            <div class="col">
+              <img class = "basil_img" src="images/basil_photo.heic" alt="Basil Reji" width="400" height="500" >
+            </div>
+            <div class="col">
+              <h1 class = "home_intro"> Hello...... <br> I am <b>Basil Reji</b>, <br> an Engineer & a Photographer</h1>
+            </div>
+          </div>
+      </div>
+      
+      <div class="S2">
+      <h2> ABOUT</h2>
+      <h6> Basil Reji is a graduate student in Robotics & Business Administration at Northeastern University </h6>
 
 
-
+      </div>
+      
 </body>
 </html>
