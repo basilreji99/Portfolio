@@ -1,24 +1,23 @@
 /* ************************************************* General Styling ****************************************************** */
 
 body { 
-    /* background-color:#000000; */
-    background-color:#61677A;
+    background-color:#000000;
+    /* background-color:#61677A; */
     margin: 0 7% 0 7%;
     text-align: center;
     font-family: sans-serif;
     margin-left: 0;
     margin-right: 0;
+    
 }
 
 /* ************************************************* Class Styling ****************************************************** */
 
-.nav-right {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    position: right;
-    padding-top: 0;
-    padding-bottom: 0;
+.nav-link{
+    color: black;
+    
 }
+
 
 .S1 {
     margin-top: 100px;
@@ -51,5 +50,53 @@ body {
 }
 
 .S2 {
-background-color:#1450A3;
+text-align: center;
+background-color:white;
 }
+
+.about_text{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.box {
+    --size: 50px;
+    --p: 25px;
+    --R: 55.9px /*sqrt(var(--size)*var(--size) + var(--p)*var(--p))*/;
+    
+    /* margin: 10% 10% 10% 10%; */
+    margin: 10px 0;
+
+     /*  Code for wave design in both top and bottom of the section  */
+    -webkit-mask:
+      radial-gradient(var(--R) at left 50% var(--d,top) calc(var(--size) + var(--p)),#000 99%,#0000 101%) 
+        calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+      radial-gradient(var(--R) at left 50% var(--d,top) calc(-1*var(--p)),#0000 99%,#000 101%) 
+        left 50% var(--d,top) var(--size)/calc(4*var(--size)) 100% repeat-x;
+    background:white;  
+    border: none;
+
+    /*  Code for wave design in both top and bottom of the section  */
+
+    /* -webkit-mask:
+    radial-gradient(var(--R) at left 50% bottom calc(var(--size) + var(--p)),#000 99%,#0000 101%) 
+     left calc(50% - 2*var(--size)) bottom 0/calc(4*var(--size)) 51% repeat-x,
+    radial-gradient(var(--R) at left 50% bottom calc(-1*var(--p)),#0000 99%,#000 101%) 
+     left 50% bottom var(--size)/calc(4*var(--size)) calc(51% - var(--size)) repeat-x,
+    radial-gradient(var(--R) at left 50% top calc(var(--size) + var(--p)),#000 99%,#0000 101%) 
+     left calc(50% - 2*var(--size)) top 0/calc(4*var(--size)) 51% repeat-x,
+    radial-gradient(var(--R) at left 50% top calc(-1*var(--p)),#0000 99%,#000 101%) 
+     left 50% top var(--size)/calc(4*var(--size)) calc(51% - var(--size)) repeat-x;
+     background:white;   
+     border: none; */
+  }
+  
+  .box + .box {
+    --d: bottom;
+  
+  }
+  
+  
+  
+  
