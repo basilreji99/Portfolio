@@ -21,6 +21,22 @@ body {
 
 .S1 {
     margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.S2 {
+    text-align: center;
+    background-color:white;
+    margin-top: 0;
+    padding-top: 0;
+    
+    }
+
+.S3 {
+    margin-top: 0;
+    padding-top: 0;
+    background-color: black;
+    color: white;
 }
 
 .home_intro{
@@ -31,6 +47,9 @@ body {
     color: white;
 }
 
+.center{
+    text-align: center;
+}
 .basil_img{
 
     border-radius: 85%;
@@ -49,11 +68,6 @@ body {
     width: 50%;
 }
 
-.S2 {
-text-align: center;
-background-color:white;
-}
-
 .about_text{
     margin-left: 10%;
     margin-right: 10%;
@@ -66,20 +80,20 @@ background-color:white;
     --R: 55.9px /*sqrt(var(--size)*var(--size) + var(--p)*var(--p))*/;
     
     /* margin: 10% 10% 10% 10%; */
-    margin: 10px 0;
+    /* margin: 10px 0; */
 
      /*  Code for wave design in both top and bottom of the section  */
-    -webkit-mask:
+    /* -webkit-mask:
       radial-gradient(var(--R) at left 50% var(--d,top) calc(var(--size) + var(--p)),#000 99%,#0000 101%) 
         calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
       radial-gradient(var(--R) at left 50% var(--d,top) calc(-1*var(--p)),#0000 99%,#000 101%) 
         left 50% var(--d,top) var(--size)/calc(4*var(--size)) 100% repeat-x;
     background:white;  
-    border: none;
+    border: none; */
 
     /*  Code for wave design in both top and bottom of the section  */
 
-    /* -webkit-mask:
+    -webkit-mask:
     radial-gradient(var(--R) at left 50% bottom calc(var(--size) + var(--p)),#000 99%,#0000 101%) 
      left calc(50% - 2*var(--size)) bottom 0/calc(4*var(--size)) 51% repeat-x,
     radial-gradient(var(--R) at left 50% bottom calc(-1*var(--p)),#0000 99%,#000 101%) 
@@ -89,12 +103,11 @@ background-color:white;
     radial-gradient(var(--R) at left 50% top calc(-1*var(--p)),#0000 99%,#000 101%) 
      left 50% top var(--size)/calc(4*var(--size)) calc(51% - var(--size)) repeat-x;
      background:white;   
-     border: none; */
+     border: none;
   }
   
   .box + .box {
     --d: bottom;
-  
   }
   
   
