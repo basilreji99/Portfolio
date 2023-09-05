@@ -24,6 +24,10 @@ body {
     margin-bottom: 0;
 }
 
+.btn-lg{
+    height: 50;
+}
+
 .about {
     text-align: center;
     background-color:white;
