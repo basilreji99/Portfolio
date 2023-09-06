@@ -15,7 +15,6 @@ body {
 
 .nav-link{
     color: black;
-    
 }
 
 
@@ -33,7 +32,6 @@ body {
     background-color:white;
     margin-top: 0;
     padding-top: 0;
-    
     }
 
 .photography {
@@ -43,8 +41,8 @@ body {
     color: white;
     max-height: 50px;
 }
-.contact{
 
+.contact{
     text-align: center;
     background-color:white;
     color: black;
@@ -53,14 +51,12 @@ body {
 }
 
 .img_fit{
-
     object-fit:contain;
     object-fit: fill;
     height: 500px;
 }
 
-.home_intro{
-    
+.home_intro{ 
     font-family:Sacramento;
     font-size:60px;
     align:center;
@@ -70,8 +66,8 @@ body {
 .center{
     text-align: center;
 }
-.basil_img{
 
+.basil_img{
     border-radius: 85%;
 }
 
@@ -100,7 +96,6 @@ body {
 }
 
 .carousel-inner{
-    
     max-height: 50%;
     text-align: center;
     align-items: center;
@@ -142,14 +137,12 @@ margin:0 5% 0 5%;
 
 .subcontainer{
     margin: 0 20% 0 20%;
-    background-color: #eaf0f2;
     border-radius: 25px;
     padding-bottom: 15px;
     padding-top: 10px;
     text-align: center;
     align-items: center;
     align-content: center;
-
 }
 
 .row{
@@ -165,11 +158,35 @@ margin:0 5% 0 5%;
     display: inline-block;
     }
 
-    .bottom-container {
+.bottom_container {
         display: inline;
         background-color: #8e9194;
-         
       }
+
+.edu_container_p{
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+.card_img{
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.exp_container_p{
+
+    color: black;
+    width:auto%;
+    margin: 0 auto;
+    background-color:white;
+}
 
 /* ************************************************* ID Styling ****************************************************** */
 
