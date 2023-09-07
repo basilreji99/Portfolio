@@ -164,12 +164,9 @@ margin:0 5% 0 5%;
       }
 
 .edu_container_p{
-    margin-left: 10%;
-    margin-right: 10%;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    background-color: black;
+    width:auto%;
+    margin: 0 auto;
+    background-color:black;
 }
 
 .card_img{
@@ -186,6 +183,7 @@ margin:0 5% 0 5%;
     width:auto%;
     margin: 0 auto;
     background-color:white;
+    
 }
 
 /* ************************************************* ID Styling ****************************************************** */
@@ -193,5 +191,5 @@ margin:0 5% 0 5%;
 
 
   
-  
+
   
